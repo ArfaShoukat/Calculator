@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  box-shadow: 4px 4px  10px rgb(196, 203, 218);
+    letter-spacing: 1px;
+    background-color: rgb(48, 46, 46);
+    width: 400px;
+    margin: auto;
+    color: antiquewhite;
+}
+body {
+  /* width: 50%;
+  margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(48deg, black, rgb(0, 0, 0));
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+}
+.calculator {
+  margin: auto;
+ width: 400px;
+  border: 1px solid #2b2b2c;
+  padding: 10px;
+  /* border-radius: 15%; */
+  background: transparent;
+  box-shadow: -6px 4px 4px rgb(61, 59, 59);
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+  /* color: white; */
+}
+input::placeholder {
+  color: black;
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+ color: white  !important;
+  font-size: 25px !important;
+  box-shadow: -8px -4px 4px rgb(61, 59, 59);
+  cursor: pointer;
+}
+.buttoneql {
+  background-color: #fb7c14;
+}
+.operator {
+  color: #6dee0a !important;
+}
+input {
+  width: 300px;
+  border: none;
+  padding: 10px;
+  margin: 30px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgbs(84 84 84, 0.1);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: white;
+}
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 500px) {
+  .calculator {
+      width: 60%;
+  }
+/* 
+  .display {
+      font-size: 18px;
+  } */
+
+  button {
+      font-size: 16px;
+      /* padding: 5px; */
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+      width: 100%;
+  }}
+  @media (max-width: 500px) {
+    #inpbox {
+        width: 85%;
+    }}
